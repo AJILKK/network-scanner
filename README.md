@@ -1,8 +1,18 @@
+VigilantScan - Network Scanning Tool
+====================================
 
----- VigilantScan ---
+A powerful and user-friendly network scanning tool written in Python. VigilantScan allows you to perform various network scans, including ping scans, port scans, OS detection, vulnerability scans, and subnet scans. It also supports saving results in multiple formats (JSON, CSV, TXT).
 
-Network Scanning Tool
-=====================
+---
+
+Features
+--------
+- Ping Scan: Check if a host is alive.
+- Port Scan: Scan for open ports and detect service versions.
+- OS Detection: Detect the operating system of the target.
+- Vulnerability Scan: Check for known vulnerabilities in detected services using the Vulners API.
+- Subnet Scan: Scan an entire subnet for alive hosts.
+-
 
 A powerful and user-friendly network scanning tool written in Python. This tool allows you to perform various network scans, including ping scans, port scans, OS detection, vulnerability scans, and subnet scans. It also supports saving results in multiple formats (JSON, CSV, TXT).
 
