@@ -61,16 +61,16 @@ Usage
    
    === Network Scanning Tool ===
 
-    1.Scan a single IP or domain (Full Scan)
-    2.Ping Scan
-    3.Port Scan
-    4.OS Detection
-    5.Vulnerability Scan
-    6.Subnet Scan
-    7.Exit
+    1. Scan a single IP or domain (Full Scan)
+    2. Ping Scan
+    3. Port Scan
+    4. OS Detection
+    5. Vulnerability Scan
+    6. Subnet Scan
+    7. Exit
     Enter your choice (1-7):
    
-3. Follow the Prompts:
+4. Follow the Prompts:
    
   - Enter the target IP or domain when prompted.
   - Choose the desired scan type.
