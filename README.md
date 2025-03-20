@@ -12,19 +12,6 @@ Features
 - OS Detection: Detect the operating system of the target.
 - Vulnerability Scan: Check for known vulnerabilities in detected services using the Vulners API.
 - Subnet Scan: Scan an entire subnet for alive hosts.
--
-
-A powerful and user-friendly network scanning tool written in Python. This tool allows you to perform various network scans, including ping scans, port scans, OS detection, vulnerability scans, and subnet scans. It also supports saving results in multiple formats (JSON, CSV, TXT).
-
----
-
-Features
---------
-- Ping Scan: Check if a host is alive.
-- Port Scan: Scan for open ports and detect service versions.
-- OS Detection: Detect the operating system of the target.
-- Vulnerability Scan: Check for known vulnerabilities in detected services using the Vulners API.
-- Subnet Scan: Scan an entire subnet for alive hosts.
 - Multiple Output Formats: Save results in JSON, CSV, or TXT format.
 - User-Friendly Menu: Easy-to-use interactive menu for selecting scan types.
 
@@ -63,6 +50,7 @@ Installation
 
 Usage
 -----
+
 1. Run the Tool:
 
    - python3 vigilantscan.py
@@ -83,6 +71,7 @@ Usage
     Enter your choice (1-7):
    
 3. Follow the Prompts:
+   
   - Enter the target IP or domain when prompted.
   - Choose the desired scan type.
   - Select the output format (JSON, CSV, or TXT) when saving results.
@@ -90,6 +79,7 @@ Usage
 
 Examples
 --------
+
 1. Full Scan:
 
    - Choose option 1 (Full Scan).
@@ -98,12 +88,14 @@ Examples
    - Save the results in your preferred format.
 
 2. Vulnerability Scan:
+   
    - Choose option 5 (Vulnerability Scan).
    - Enter the target (e.g., example.com or 192.168.1.1).
    - The tool will scan for open ports and check for vulnerabilities using the Vulners API.
    - Save the results in your preferred format.
 
-3. Subnet Scan:
+4. Subnet Scan:
+   
    - Choose option 6 (Subnet Scan).
   - Enter the subnet (e.g., 192.168.1).
   - The tool will scan the subnet for alive hosts.
@@ -113,6 +105,7 @@ Examples
 
 Output Formats
 --------------
+
 The tool supports saving results in the following formats:
 - JSON: Structured data format.
 - CSV: Comma-separated values format.
@@ -130,13 +123,16 @@ Example of saving results:
 
 Using the Vulners API
 ---------------------
+
 The tool integrates with the Vulners API to check for known vulnerabilities in detected services. To use this feature:
 
 1. Sign Up for Vulners:
+   
    - Visit https://vulners.com/ and create an account.
    - Generate a free API key from your account dashboard.
 
-2. Add Your API Key:
+3. Add Your API Key:
+   
    - Open the script `advanced_network_scanner.py`.
    - Locate the `vulnerability_scan` function.
    - Replace `YOUR_VULNERS_API_KEY` with your actual Vulners API key:
@@ -144,7 +140,8 @@ The tool integrates with the Vulners API to check for known vulnerabilities in d
      vulners_api = vulners.VulnersApi(api_key="YOUR_VULNERS_API_KEY")
      ```
 
-3. Run the Tool:
+4. Run the Tool:
+   
    - The tool will now use the Vulners API to check for vulnerabilities during vulnerability scans.
 
 ---
