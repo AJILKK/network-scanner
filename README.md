@@ -29,7 +29,7 @@ Installation
 ------------
 1. Clone the Repository:
 
-   git clone https://github.com/ajilkk/network-scanning-tool.git
+   git clone https://github.com/ajilkk/network-scanner.git
    cd network-scanning-tool
    
 2. Install Required Libraries:
