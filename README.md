@@ -61,13 +61,13 @@ Usage
    
    === Network Scanning Tool ===
 
-    1. Scan a single IP or domain (Full Scan)
-    2. Ping Scan
-    3. Port Scan
+    1 - Scan a single IP or domain (Full Scan)
+    2 - Ping Scan
+    3 - Port Scan
     4. OS Detection
-    5. Vulnerability Scan
-    6. Subnet Scan
-    7. Exit
+    5 - Vulnerability Scan
+    6 - Subnet Scan
+    7 - Exit
     Enter your choice (1-7):
    
 4. Follow the Prompts:
