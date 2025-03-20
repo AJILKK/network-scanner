@@ -83,7 +83,7 @@ def os_detection(ip):
 # Function to check for vulnerabilities
 def vulnerability_scan(ip, service, version):
     # Replace 'YOUR_API_KEY' with your actual Vulners API key
-    vulners_api = vulners.VulnersApi(api_key="YQ7DYTXVT62MQZ83QYPKHK8ANTIS37ZQ02T6OAVXQBFJOMQW1MTD2H1U01G9252F")  # <-- Add your API key here
+    vulners_api = vulners.VulnersApi(api_key="ADD YOUR ACTUAL VULNERS API KEY HERE")  # <-- Add your API key here
     if version:
         print(f"[*] Checking {service} {version} for vulnerabilities...")
         logging.info(f"Checking {service} {version} for vulnerabilities...")
